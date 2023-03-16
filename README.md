@@ -22,7 +22,8 @@ YOUR CONTENT HERE
 Here, the parameter provided to captureStart and captureEnd `to-end` is the key of your content. You need this key to access the content 
 in your layout file.
 You can render the content of a key using the following code
-```
+
+```php
 <?= PlaceholderManager::getContent('to-end'); ?>
 ```
 
